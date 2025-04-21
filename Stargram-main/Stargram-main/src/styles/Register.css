@@ -1,0 +1,81 @@
+/* Fondo general */
+body {
+  background-color: #fff;
+  font-family: 'Arial', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+/* Estilo del formulario */
+.custom-card {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  width: 100%;
+  max-width: 800px;  /* Aumentamos el tamaño máximo */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Título */
+h2 {
+  text-align: center;
+  font-weight: bold;
+  color: #6a1b9a;
+  margin-bottom: 25px;
+}
+
+/* Campos de entrada */
+.custom-input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  background-color: #f9f9f9;
+}
+
+/* Estilo de los errores en los campos */
+.custom-input:invalid {
+  border: 1px solid red;
+}
+
+.custom-input:valid {
+  border: 1px solid green;
+}
+
+/* Botón */
+.custom-button {
+  background-color: #8e24aa; /* Morado para el botón */
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  width: 100%;
+  transition: background-color 0.3s;
+}
+
+.custom-button:hover {
+  background-color: #9c27b0;
+}
+
+/* Enlace de Login */
+.custom-link {
+  color: #8e24aa;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.custom-link:hover {
+  text-decoration: underline;
+}
+
+/* Asegura que el formulario esté centrado en la pantalla */
+.container-fluid {
+  padding: 0 15px;
+}

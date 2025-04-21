@@ -1,0 +1,46 @@
+.bg-gradient {
+  background: linear-gradient(135deg, #ca204a, #e94d71); 
+}
+
+.custom-card {
+  background-color: #fff;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.custom-input {
+  border-radius: 8px;
+  font-size: 16px;
+  padding-left: 40px; 
+  background-color: #f8f9fa;
+  transition: all 0.3s ease;
+}
+
+.custom-input:focus {
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  border-color: #ca204a;
+}
+
+.custom-button {
+  background-color: #ca204a; 
+  border-color: #ca204a;
+  color: white;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  padding: 12px;
+  transition: background-color 0.3s ease;
+}
+
+.custom-button:hover {
+  background-color: #e94d71; 
+  border-color: #e94d71;
+}
+
+.custom-link {
+  color: #ca204a; 
+  font-weight: bold;
+}
+
+.custom-link:hover {
+  text-decoration: underline;
+}

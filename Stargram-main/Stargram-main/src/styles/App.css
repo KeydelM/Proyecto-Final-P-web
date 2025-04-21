@@ -1,0 +1,139 @@
+.navbar {
+  background-color: #ca204a !important;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.navbar .navbar-brand {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: white;
+}
+
+.navbar .nav-item {
+  margin-left: 20px;
+}
+
+.navbar .nav-link {
+  font-size: 1.2rem;
+  color: #fff;
+  transition: color 0.3s ease-in-out;
+}
+
+.navbar .nav-link:hover {
+  color: #f1f1f1;
+}
+
+.navbar {
+  background-color: #6a4cfc; 
+  padding: 10px 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.navbar .navbar-brand {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: white;
+  letter-spacing: 2px;
+}
+
+.navbar .nav-item {
+  margin-left: 20px;
+}
+
+.navbar .nav-link {
+  font-size: 1.1rem;
+  color: #fff;
+  font-weight: 500;
+  transition: color 0.3s ease-in-out;
+}
+
+.navbar .nav-link:hover {
+  color: #f1f1f1;
+}
+
+button {
+  font-weight: bold;
+  background-color: #6f42c1; 
+  border-color: #6f42c1;
+  border-radius: 8px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #5a33a2;
+  border-color: #5a33a2;
+}
+
+button:focus {
+  outline: none;
+}
+
+.container {
+  padding-top: 75px;
+}
+
+.container-fluid {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.main-content {
+  padding: 50px 20px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  margin-top: 100px;
+}
+
+@media (max-width: 768px) {
+  .navbar .navbar-nav {
+    text-align: center;
+  }
+  .navbar .nav-item {
+    margin-left: 0;
+    margin-bottom: 10px;
+  }
+}
+ones de login, signup */
+button {
+  font-weight: bold;
+  background-color: #6f42c1;
+  border-color: #6f42c1;
+}
+
+button:hover {
+  background-color: #5a33a2;
+  border-color: #5a33a2;
+}
+
+.container {
+  padding-top: 75px;
+}
+
+.container-fluid {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.navbar {
+  background-color: #5f4b8b; 
+}
+
+.navbar a {
+  color: white !important;
+  font-weight: bold;
+}
+
+.navbar a:hover {
+  color: #d3d3d3 !important;
+}
+
+.navbar-brand {
+  font-size: 24px;
+  font-weight: bold;
+}
